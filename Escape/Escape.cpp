@@ -1,20 +1,29 @@
-// Escape.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+//---------------------------------------------------------------- 
+// Titel:       Konsolen-Programm Escape 1-3
+// Projekt:     Escape.cpp
+// Datum:       2021-01-04 AT 
+// Funktion:    Ubungsaufgabe Escape-Sequenzen
+//               
+//---------------------------------------------------------------- 
 
-#include <iostream>
 
-int main()
+#include <stdio.h> 
+#include <conio.h> 
+
+void main(void)
 {
-    std::cout << "Hello World!\n";
+	// ESCAPE1
+	printf("Antonio Tejada\nEngelstrasse 9\n8004 Z\x81rich");	              //Textausgabe 
+	printf("\n");														      //Textausgabe 
+	printf("\n");														      //Textausgabe 
+
+// ESCAPE2
+	printf("Antonio Tejada\nEngelstrasse 9\n8004 Z\x81rich\a");               //Textausgabe
+	printf("\n");														      //Textausgabe 
+	printf("\n");														      //Textausgabe 
+
+ // ESCAPE3
+	printf("\xE1");												              //Textausgabe 
+	printf("\n");												              //Textausgabe 
+
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
