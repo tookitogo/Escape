@@ -2,7 +2,7 @@
 // Titel:       Konsolen-Programm Escape 1-3
 // Projekt:     Escape.cpp
 // Datum:       2021-01-04 AT 
-// Funktion:    Ubungsaufgabe Escape-Sequenzen
+// Funktion:    Übungsaufgabe Escape-Sequenzen
 //               
 //---------------------------------------------------------------- 
 
