@@ -26,4 +26,4 @@ void main(void)
     printf("\xE1");                                                           //Textausgabe 
     printf("\n");                                                             //Textausgabe 
 
-}
+}  
